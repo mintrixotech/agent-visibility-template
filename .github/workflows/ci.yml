@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: [self-hosted, server1]
+    runs-on: [self-hosted, mintrixo]
     steps:
       - uses: actions/checkout@v4
       - name: Run
